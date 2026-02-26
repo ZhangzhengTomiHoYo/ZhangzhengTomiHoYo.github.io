@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Keunhong Park
+title: Zheng Zhang
 ---
 
 <!-- Hero Section -->
@@ -9,9 +9,8 @@ title: Keunhong Park
     <div class="flex flex-col items-center text-center md:text-left md:flex-row md:items-start gap-8">
       <!-- Portrait -->
       <div class="flex-shrink-0">
-        <img src="{{ '/images/Zheng_Zhang_photo.jpg' | relative_url }}"
-             alt="{{ site.name }}"
-             class="w-48 h-48 md:w-56 md:h-56 object-cover">
+        <img src="{{ '/images/Zheng_Zhang_photo.jpg' | relative_url }}" alt="{{ site.name }}"
+          class="w-48 h-48 md:w-56 md:h-56 object-cover">
       </div>
 
       <!-- Bio -->
@@ -25,22 +24,26 @@ title: Keunhong Park
 
         <!-- Links -->
         <div class="flex flex-wrap justify-center md:justify-start gap-4 mt-6">
-          <a href="{{ '/cv/' | relative_url }}" class="inline-flex items-center text-text-muted hover:text-text font-sans text-sm no-underline">
+          <a href="{{ '/cv/' | relative_url }}"
+            class="inline-flex items-center text-text-muted hover:text-text font-sans text-sm no-underline">
             {% include icons/file.html class="w-4 h-4 mr-1.5" %}
             CV
           </a>
 
-          <a href="https://scholar.google.com/citations?user={{ site.google_scholar }}" class="inline-flex items-center text-text-muted hover:text-text font-sans text-sm no-underline">
+          <a href="https://scholar.google.com/citations?user={{ site.google_scholar }}"
+            class="inline-flex items-center text-text-muted hover:text-text font-sans text-sm no-underline">
             <i class="ai ai-google-scholar mr-1.5"></i>
             Scholar
           </a>
 
-          <a href="https://github.com/{{ site.github_username }}" class="inline-flex items-center text-text-muted hover:text-text font-sans text-sm no-underline">
+          <a href="https://github.com/{{ site.github_username }}"
+            class="inline-flex items-center text-text-muted hover:text-text font-sans text-sm no-underline">
             {% include icons/github.html class="w-4 h-4 mr-1.5" %}
             GitHub
           </a>
 
-          <a href="https://twitter.com/{{ site.twitter_username }}" class="inline-flex items-center text-text-muted hover:text-text font-sans text-sm no-underline">
+          <a href="https://twitter.com/{{ site.twitter_username }}"
+            class="inline-flex items-center text-text-muted hover:text-text font-sans text-sm no-underline">
             {% include icons/twitter.html class="w-4 h-4 mr-1.5" %}
             Twitter
           </a>
@@ -53,12 +56,14 @@ title: Keunhong Park
 <!-- Highlights Section -->
 <section class="relative py-12 md:py-16">
   <!-- Background with faded edges -->
-  <div class="absolute inset-0 bg-surface-muted" style="mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent); -webkit-mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent);"></div>
+  <div class="absolute inset-0 bg-surface-muted"
+    style="mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent); -webkit-mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent);">
+  </div>
   <div class="relative max-w-4xl mx-auto px-6">
     <h2 class="font-display text-2xl font-semibold text-text mb-8">Highlights</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       {% for highlight in site.data.highlights %}
-        {% include highlight.html h=highlight %}
+      {% include highlight.html h=highlight %}
       {% endfor %}
     </div>
   </div>
@@ -69,7 +74,7 @@ title: Keunhong Park
   <div class="max-w-4xl mx-auto px-6">
     <h2 class="font-display text-2xl font-semibold text-text mb-8">Publications</h2>
     {% for pub in site.data.publications %}
-      {% include publication.html pub=pub %}
+    {% include publication.html pub=pub %}
     {% endfor %}
   </div>
 </section>

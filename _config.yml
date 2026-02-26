@@ -23,11 +23,11 @@ name: Zheng Zhang
 position: M.S. Student
 email: 2024110476@mail.hfut.edu.cn
 description: |
-  Zheng Zhang was born in Shanghai, China, in 2002. He spent his early school years at Huayangqiao School (now the Shanghai Theatre Academy Affiliated Songjiang Experimental School) in Shanghai. In 2018, he moved to Anhui, where he attended the South Campus of Hefei No. 46 Middle School and subsequently graduated from Hefei No. 168 High School. He received his B.E. degree in computer science and technology from Anhui University of Finance and Economics in 2024. Currently, he is pursuing an M.S. degree in computer science and technology at Hefei University of Technology. His primary research interests lie at the intersection of computer graphics and computer vision, with a particular emphasis on 3D vision, neural rendering, 3D Gaussian Splatting (3DGS), dynamic scene rendering (4DGS), and motion magnification. He is also highly passionate about non-photorealistic rendering (NPR), specifically exploring toon rendering and anime-style rendering techniques.
+  Zheng Zhang is a M.S. student in the School of Computer Science and Information Engineering at Hefei University of Technology. He received his B.E. degree in computer science and technology from Anhui University of Finance and Economics in 2024. His primary research interests lie at the intersection of computer graphics and computer vision, with a particular emphasis on 3D vision, neural rendering, 3D Gaussian Splatting (3DGS), dynamic scene rendering (4DGS), and motion magnification. He is also highly passionate about non-photorealistic rendering (NPR), specifically exploring toon rendering and anime-style rendering techniques.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ZhangzhengTomiHoYo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: ZhangzhengTomiHoYo
-google_scholar: HVZb-5oAAAAJ
+google_scholar: 0wN-YpQAAAAJ
 google_analytics: G-MFWSBLRKG0
 
 # Build settings
