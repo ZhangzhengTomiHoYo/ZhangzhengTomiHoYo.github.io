@@ -1,0 +1,28 @@
+zzhang:
+  first_name: Zheng
+  last_name: Zhang
+  is_me: true
+jguo:
+  first_name: Jiabao
+  last_name: Guo
+fwang:
+  first_name: Fei
+  last_name: Wang
+jhuang:
+  first_name: Jinyang
+  last_name: Huang
+zliu:
+  first_name: Zhi
+  last_name: Liu
+dguo:
+  first_name: Dan
+  last_name: Guo
+fli:
+  first_name: Feng
+  last_name: Li
+lwang:
+  first_name: Lingling
+  last_name: Wang
+wliu:
+  first_name: Wei
+  last_name: Liu

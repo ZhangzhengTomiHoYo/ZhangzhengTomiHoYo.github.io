@@ -1,0 +1,13 @@
+- id: research-3dgs
+  title: "3D Gaussian Splatting & Neural Rendering"
+  organization: "Research Interest"
+  date: "Current"
+  description: "Primary research focusing on 3D vision, dynamic scene rendering (4DGS), and motion magnification."
+  image: "paper2.png"
+
+- id: research-npr
+  title: "Non-Photorealistic Rendering (NPR)"
+  organization: "Research Interest"
+  date: "Current"
+  description: "Highly passionate about exploring toon rendering and anime-style rendering techniques."
+  image: "paper1.png"

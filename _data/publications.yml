@@ -1,0 +1,26 @@
+- id: tg4mm
+  title: "TG4MM: Time-Varying Gaussian Splatting for 3D Motion Magnification"
+  venue: "IEEE Transactions on Circuits and Systems for Video Technology, 2026"
+  project_page: "https://ieeexplore.ieee.org/abstract/document/11396939"
+  github: "ZhangzhengTomiHoYo/TG4MM"
+  image: "paper2.png"
+  authors:
+    - zzhang
+    - jguo
+    - fwang
+    - jhuang
+    - zliu
+    - dguo
+
+- id: heart_sound
+  title: "Heart sound classification based on improved mel-frequency spectral coefficients and deep residual learning"
+  venue: "Frontiers in Physiology, Vol 13, Article 1084420, 2022/12/22"
+  description: "Achieves an accuracy of 94.43% based on improved MFCC features and deep residual learning. Total citations: 50."
+  project_page: "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.1084420/full"
+  github: "ZhangzhengTomiHoYo/HeartSoundClassification"
+  image: "paper1.png"
+  authors:
+    - fli
+    - zzhang
+    - lwang
+    - wliu
